@@ -1,0 +1,43 @@
+/*this is for id's:*/
+#header{
+    background-image: url(https://raw.githubusercontent.com/dcunningham36/Web_Tech/main/Week3/images/banner.jpg);
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #000000;
+}
+#text{
+    background-color: #fff;
+    color : #000000;
+    border : 1px solid black;
+}
+#cookies{
+    width: 100%;
+    height: 6
+0vh;
+    background-color: whitesmoke;
+    position: fixed;
+    bottom: 0%;
+    border: 1px solid black;
+}
+#button{
+    position: absolute;
+    top: 0%;
+    right: 10px;
+}
+#wraper{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #000000;
+}
+#querry{
+    height: 20px;
+}
+
+
+/*this is for classes:*/
+.index{
+    color: white;
+}

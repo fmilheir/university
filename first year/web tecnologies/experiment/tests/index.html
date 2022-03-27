@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My test Page</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id = "header">
+        <h1>This is my weeb page :)</h1>
+    </div>
+    <div id = "wraper">
+        <div class = "index">Home Page</div>
+        <div class = "index">Browse</div>
+        <div class = "index">About us</div>
+        <div class = "index">Example Page 1</div>
+        <div class = "index">Example Page 2</div>
+    </div>
+    
+    <div id = "text">
+        <p>
+        html: <br>
+            nav- is used to define sets of navigation link's <br>
+            ul- to make an unordered bullet list <br>
+            h1- used to make a heder <br>
+            p- used to make a pharagraph <br>
+            link (in the head part) - <br>
+            div- create a specific division (used to the user be able to get more control in a pecific area) <br>
+            class- can be used to reffer mltiple declarations <br>
+            id- can onli be used 1 time per name <br>
+            img src"image link" alt"image name( to apear in case of error loading the image" <br>
+            br- new line <br>
+        </p>
+    </div>
+    <main>
+    <form action="">
+    <div id = "cookies">
+        <form id="myfrm">
+            <!--text in top-->  
+            <p>My cookies (if you dont like leave):)</p>
+            <!--text box's-->
+                <button id="button">X</button>
+            <!--Name and email fileds-->
+                <label for="textbox">Name:</label>
+                <input id ="name" type="text" name="Name"> 
+                <label for="email">E-mail:</label>
+                <input id ="email" type="email" name="email"> 
+                <p>whitch package is query about?</p>
+            <!--radio button's-->
+                <input type="radio" id="testone" name="test" value="first">
+                <label for="testone">Standard</label><br>
+                <input type="radio" id="testtwo" name="test" value="second">
+                <label for="testtwo">The chozen One package</label>
+            <br>
+            <br>
+            <!--querry textbox-->
+                <p>we may respond via owl, on a scale of 1 to 10, how scared are you of <br>owls?<br>(10 being the most scared)</p>
+                <input type="number" name="numer"> <br>
+            <!--querry textbox-->
+                <label for="query">please enter your query:</label> <br>
+                <textarea name="textarea" id="text" cols="60" rows="10"></textarea>
+                <button id ="Submit">Submit</button>
+         </form>
+
+    </div>
+    </form>
+    </main>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

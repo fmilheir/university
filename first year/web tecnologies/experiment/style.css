@@ -1,0 +1,61 @@
+/*id's*/
+#header
+{
+    background-image: url(https://raw.githubusercontent.com/dcunningham36/Web_Tech/main/Week3/images/banner.jpg);
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #000000;
+
+}
+#text{
+    color: white;
+    height: 25px;
+    width: 100%;
+    position: relative;
+    top: 20%;
+    font-size: 12vh;
+}
+
+#wraper{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #000000;
+}
+#index{
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+    border: 1px solid #000000;
+    font-size: 3.8vh;
+}
+#separator{
+    color: #000000;
+}
+
+/*classes*/
+.index{
+    color: white;
+}
+.some_txt {
+    text-align: center;
+    background-color: black;
+    color:  white;
+    border: 1px solid #000000;
+    width: 50%;
+}
+.container {
+    background-color: black;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: space-between;
+
+}
+.image{
+    width: 50%;
+    position: relative;
+    left: 7vh;
+}
