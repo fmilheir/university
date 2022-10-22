@@ -1,0 +1,22 @@
+#header
+{
+
+    background-image: url("../photos/index/meoswheader.jpg");
+    height: 50vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+}
+#wraper{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid #000000;
+}
+
+    /*this is for classes:*/
+.index{
+    color: white;
+}   
